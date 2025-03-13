@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DijiMarket - Dijital Ürün Satış Platformu</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Bölümü -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">DijiMarket</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/kategoriler">Kategoriler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/populer">Popüler Ürünler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/indirimli">İndirimli Ürünler</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Ürün Ara...">
+                    <button class="btn btn-outline-light">Ara</button>
+                </div>
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sepet">
+                            <i class="fas fa-shopping-cart"></i> Sepet
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/giris">Giriş Yap</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Ana Sayfa İçeriği -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Kategoriler Sidebar -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        Kategoriler
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Oyun Ürünleri</li>
+                        <li class="list-group-item">Yazılım Lisansları</li>
+                        <li class="list-group-item">Sunucu Hizmetleri</li>
+                        <li class="list-group-item">Sosyal Medya</li>
+                        <li class="list-group-item">E-Pin</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Ürün Listesi -->
+            <div class="col-md-9">
+                <div class="row">
+                    <!-- Örnek Ürün Kartı -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="product1.jpg" class="card-img-top" alt="Ürün">
+                            <div class="card-body">
+                                <h5 class="card-title">Steam Cüzdan Kodu</h5>
+                                <p class="card-text">50 TL değerinde Steam Cüzdan Kodu</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-primary fw-bold">55.00 TL</span>
+                                    <button class="btn btn-primary">Sepete Ekle</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Diğer ürün kartları buraya eklenecek -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>DijiMarket</h5>
+                    <p>Güvenli ve hızlı dijital ürün alışverişi</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Hızlı Linkler</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/hakkimizda" class="text-light">Hakkımızda</a></li>
+                        <li><a href="/iletisim" class="text-light">İletişim</a></li>
+                        <li><a href="/sss" class="text-light">S.S.S.</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>İletişim</h5>
+                    <p>Email: info@dijimarket.com</p>
+                    <p>Tel: 0850 123 45 67</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-code.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
